@@ -1,6 +1,8 @@
 const Bedroom = (props) => {
   return ( 
+    <>
     <div>Bedroom</div>
+    </>
   )
 }
 
