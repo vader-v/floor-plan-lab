@@ -7,14 +7,14 @@ const FloorPlan = (props) => {
   return ( 
     <>
     {/* bedroom 1, 2, 3 */}
-    <Bedroom />
+    <Bedroom bedName={'(Master)'}/>
     <Kitchen />
     {/* full bath/ half bath */}
-    <Bath />
-    <Bedroom />
+    <Bath size={'Half'}/>
+    <Bedroom bedName={'(Guest)'}/>
     <LivingRoom />
-    <Bath /> 
-    <Bedroom />
+    <Bath size={'Full'}/> 
+    <Bedroom bedName={'(Master)'}/>
     </>
   )
 }
